@@ -9,7 +9,7 @@
  1. Download the installation script:
 
     ```
-    curl -o 3proxy-install.sh -L https://raw.githubusercontent.com/layer07/3proxy-lazy/main/3proxy-install.sh
+    curl -o 3proxy-install.sh -L https://raw.githubusercontent.com/liyehuicn/3proxy-lazy/main/3proxy-install.sh
     ```
 
  2. Make the script executable:
@@ -27,7 +27,7 @@
 ## One Liner if you are ultra-lazy or in a hurry
 
 ```
-curl -o 3proxy-install.sh -L https://raw.githubusercontent.com/layer07/3proxy-lazy/main/3proxy-install.sh \
+curl -o 3proxy-install.sh -L https://raw.githubusercontent.com/liyehuicn/3proxy-lazy/main/3proxy-install.sh \
 && chmod +x 3proxy-install.sh \
 && ./3proxy-install.sh
 ```
