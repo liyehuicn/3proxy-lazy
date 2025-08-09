@@ -19,8 +19,8 @@ echo -e "
 function install_3proxy() {
     # Download 3proxy and install it
     passwd_file="/etc/3proxy/conf/passwd"
-    wget https://github.com/3proxy/3proxy/releases/download/0.9.4/3proxy-0.9.4.x86_64.deb
-    sudo dpkg -i 3proxy-0.9.4.x86_64.deb
+    wget https://github.com/3proxy/3proxy/releases/download/0.9.5/3proxy-0.9.5.x86_64.deb
+    sudo dpkg -i 3proxy-0.9.5.x86_64.deb
 
     # Set the desired port (60000) in the 3proxy configuration file
     sudo sed -i 's/^nscache .*/nscache 65536/' /etc/3proxy/3proxy.cfg
